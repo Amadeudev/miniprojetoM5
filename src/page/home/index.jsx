@@ -9,6 +9,9 @@ function Home() {
     <>
     <h2>LIVROS</h2>
     <Card />
+    <Card />
+    <Card />
+    <Card />
     </>
   )
 }
