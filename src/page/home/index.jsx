@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import './style.css'
-import Card from '../../components/Card/Card.jsx'
+import CardList from '../../components/cardList/cardList.jsx'
 
 function Home() {
   const [count, setCount] = useState(0)
@@ -8,7 +8,7 @@ function Home() {
   return (
     <>
     <h2>LIVROS</h2>
-    <Card />
+    <CardList />
     </>
   )
 }
