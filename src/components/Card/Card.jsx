@@ -1,12 +1,15 @@
-import styles from '../../components/Card/cardSyle.css'
+import '../../components/Card/cardStyle.css'
+import cards from  '../../assets/mockDB/db.json'
 
-function Card({ title, cathegory, author }) {
+function Card({ title, category, author }) {
+    console.log(cards.title, cards.category, cards.author)
+    console.log(cards)
     return (
         <section className='cardLivro'>
-            <image></image>
-            <h3>{title}Título:</h3>
-            <p>{cathegory}Categoria:</p>
-            <p>{author}Autor:</p>
+            <img src='' alt=''/>
+            <h3>Título: {cards.title[0]}</h3>
+            <p>Categoria: {cards.category[0]}</p>
+            <p>Autor: {cards.author[0]}</p>
         </section>
     )
 }

@@ -1,0 +1,30 @@
+{
+    "cards": [
+{
+    "id": 1,
+    "title": "Estrela azul",
+    "author": "Patricia Veloso",
+    "category": "Romance"
+},
+
+{
+    "id": 2,
+    "title": "Harry Potter e o Cálice de Fogo",
+    "author": "J.K. Rowling",
+    "category": "Ficção"
+},
+
+{
+    "id": 3,
+    "title": "Léo, o pardo",
+    "author": "Rinaldo Santos Teixeira",
+    "category": "Biografia"
+},
+
+{
+    "id": 4,
+    "title": "Diário de um banana",
+    "author": "Kinney",
+    "category": "Comédia"
+}
+    ]}
